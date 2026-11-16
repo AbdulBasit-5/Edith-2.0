@@ -58,3 +58,4 @@ def test_structured_audit_logger(tmp_path):
     rec3 = json.loads(lines[2])
     assert rec3["event_type"] == "approval_decision"
     assert rec3["approved"] is True
+

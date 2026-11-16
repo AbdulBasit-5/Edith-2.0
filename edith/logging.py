@@ -95,3 +95,4 @@ class AuditLogger:
 
 # Global default audit logger
 default_logger = AuditLogger()
+

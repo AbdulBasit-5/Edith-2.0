@@ -87,3 +87,4 @@ class ToolRegistry:
         """Check if a tool requires approval before execution."""
         tool = self._tools.get(name)
         return tool.risk_level == "send" if tool else False
+

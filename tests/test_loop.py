@@ -236,3 +236,4 @@ def test_max_iterations_cap(empty_memory, tmp_audit_logger):
     result = agent.run(empty_memory)
     assert result.status == LoopStatus.MAX_ITERATIONS_REACHED
     assert result.iterations_used == 6
+

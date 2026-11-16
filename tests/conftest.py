@@ -71,3 +71,4 @@ def tmp_audit_logger(tmp_path) -> AuditLogger:
 @pytest.fixture
 def empty_memory() -> ConversationMemory:
     return ConversationMemory(max_turns=10)
+

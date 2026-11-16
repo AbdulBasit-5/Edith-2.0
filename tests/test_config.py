@@ -15,3 +15,4 @@ def test_config_defaults(monkeypatch):
     assert config.anthropic_api_key == "sk-ant-test"
     assert config.max_agent_iterations == 6
     assert config.max_download_size_bytes == 25 * 1024 * 1024
+

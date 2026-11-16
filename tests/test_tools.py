@@ -39,3 +39,4 @@ def test_tool_registry():
     assert registry.get("unknown_tool") is None
     assert len(registry.get_all_schemas()) == 1
     assert registry.is_risk_send("get_time") is False
+

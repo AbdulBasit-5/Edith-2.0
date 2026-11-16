@@ -55,3 +55,4 @@ class Config(BaseModel):
 def load_config() -> Config:
     """Load and return the validated application configuration."""
     return Config()
+

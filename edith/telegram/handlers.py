@@ -178,3 +178,4 @@ class TelegramBotManager:
                 chat_id=chat_id,
                 text=f"⚠️ Failed to deliver file: {str(e)}",
             )
+

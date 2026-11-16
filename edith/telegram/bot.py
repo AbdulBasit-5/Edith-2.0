@@ -31,3 +31,4 @@ def build_application(manager: TelegramBotManager, token: str) -> Application:
     app.add_handler(CallbackQueryHandler(manager.handle_callback_query))
 
     return app
+
